@@ -9,16 +9,15 @@ const differentiators = [
   "Integruojame su esamomis sistemomis: ERP, CRM, buhalterinė programa — jokio duomenų perkėlimo iš naujo",
   "Lietuviškai kalbantis palaikymas ir projekto komanda — komunikacija be kalbos barjerų ir laiko zonų skirtumų",
   "Skaidrūs kainų modeliai — žinote, už ką mokate, ir matote grąžą prieš plečiant sprendimą",
-  "ISO 27001 lygmens duomenų saugos praktikos visuose projektuose",
 ];
 
 const sectors = [
-  { name: "Gamyba ir pramonė", count: "25+ projektų" },
+  { name: "Gamyba ir pramonė", count: "250+ projektų" },
   { name: "Logistika ir tiekimas", count: "20+ projektų" },
-  { name: "Finansų paslaugos", count: "18+ projektų" },
-  { name: "E. komercija ir mažmeninė", count: "30+ projektų" },
-  { name: "Profesionalios paslaugos", count: "22+ projektų" },
-  { name: "IT ir technologijos", count: "15+ projektų" },
+  { name: "Finansų paslaugos", count: "150+ projektų" },
+  { name: "E. komercija ir prekyba", count: "2000+ projektų" },
+  { name: "Paslaugos", count: "800+ projektų" },
+  { name: "IT ir technologijos", count: "150+ projektų" },
 ];
 
 export default function B2BPositionSection() {
@@ -42,8 +41,8 @@ export default function B2BPositionSection() {
             </h2>
             <p className="text-[#6E6E73] leading-relaxed mb-8">
               Bendrinės skaitmeninės agentūros gali pasiūlyti AI kaip papildomą
-              paslaugą. Mes — tik AI ir tik B2B. Tai leidžia pasiekti tokį
-              specializacijos lygį, kurio neįmanoma pasiekti dirbant su viskuo.
+              paslaugą. Mes dirbame ir su B2B, ir su AI sprendimais vienu metu. Tai leidžia pasiekti daug aukštesnį
+              specializacijos lygį.
             </p>
 
             <ul className="flex flex-col gap-4">
@@ -87,9 +86,9 @@ export default function B2BPositionSection() {
               {/* Mini stats */}
               <div className="grid grid-cols-3 gap-3 pt-4 border-t border-[#E5E5E7]">
                 {[
-                  { value: "150+", label: "projektų" },
-                  { value: "80+", label: "klientų" },
-                  { value: "6+", label: "metų patirties" },
+                  { value: "3000+", label: "projektų" },
+                  { value: "800+", label: "klientų" },
+                  { value: "18+", label: "metų patirties" },
                 ].map((s) => (
                   <div key={s.label} className="text-center">
                     <p className="text-2xl font-bold text-[#1D1D1F] mb-0.5">{s.value}</p>

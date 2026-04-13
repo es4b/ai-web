@@ -5,7 +5,6 @@ import StorySection from "@/components/sections/apie-mus/StorySection";
 import ExpertiseSection from "@/components/sections/apie-mus/ExpertiseSection";
 import ValuesSection from "@/components/sections/apie-mus/ValuesSection";
 import B2BPositionSection from "@/components/sections/apie-mus/B2BPositionSection";
-import TeamSection from "@/components/sections/apie-mus/TeamSection";
 import AboutCtaSection from "@/components/sections/apie-mus/AboutCtaSection";
 
 export const metadata: Metadata = {
@@ -38,7 +37,6 @@ export default function ApieMusPage() {
       <ExpertiseSection />
       <ValuesSection />
       <B2BPositionSection />
-      <TeamSection />
       <AboutCtaSection />
     </>
   );

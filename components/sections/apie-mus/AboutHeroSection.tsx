@@ -36,8 +36,8 @@ export default function AboutHeroSection() {
             Mes kuriame AI, kuris dirba už Jūsų verslą
           </h1>
           <p className="text-lg md:text-xl text-[#6E6E73] leading-relaxed mb-10 max-w-2xl">
-            UAB „ES4B" — B2B dirbtinio intelekto sprendimų įmonė iš Kauno.
-            Automatizuojame verslo procesus, kad Jūsų komanda galėtų susikoncentruoti
+            UAB „ES4B" — B2B dirbtinio intelekto sprendimų įmonė.
+            Jau 18 metų automatizuojame verslo procesus, kad Jūsų komanda galėtų susikoncentruoti
             į tai, kas iš tikrųjų svarbu: augimą, klientus ir strategiją.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">

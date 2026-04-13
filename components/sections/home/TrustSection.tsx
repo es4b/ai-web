@@ -24,9 +24,9 @@ const indicators = [
   },
   {
     icon: ShieldCheck,
-    value: "ISO 27001",
+    value: "100%",
     label: "duomenų sauga",
-    desc: "Sertifikuoti saugumo standartai",
+    desc: "Įmonės duomenys nepatenka į išorę",
   },
 ];
 

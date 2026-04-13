@@ -38,7 +38,7 @@ export default function ContactInfoSection() {
           </a>
 
           <a
-            href="mailto:info@es4b.co.uk"
+            href="mailto:info@es4b.lt"
             className="flex items-center gap-3.5 group"
           >
             <div className="w-9 h-9 rounded-xl bg-[#EBF4FF] flex items-center justify-center flex-shrink-0">
@@ -47,7 +47,7 @@ export default function ContactInfoSection() {
             <div>
               <p className="text-xs text-[#86868B] mb-0.5">El. paštas</p>
               <p className="text-sm font-semibold text-[#1D1D1F] group-hover:text-[#0071E3] transition-colors">
-                info@es4b.co.uk
+                info@es4b.lt
               </p>
             </div>
           </a>

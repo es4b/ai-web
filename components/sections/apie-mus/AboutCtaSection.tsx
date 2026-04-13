@@ -6,7 +6,7 @@ import { ArrowRight, Users } from "lucide-react";
 
 export default function AboutCtaSection() {
   return (
-    <section className="bg-[#FBFBFB] py-20 md:py-28">
+    <section className="bg-white py-20 md:py-28">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -30,7 +30,7 @@ export default function AboutCtaSection() {
               ir galimybę dirbti su naujausių technologijų projektais.
             </p>
             <a
-              href="mailto:info@es4b.co.uk?subject=Karjera ES4B"
+              href="mailto:info@es4b.lt?subject=Karjera ES4B"
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#0071E3] hover:text-[#0077ED] transition-colors"
             >
               Siųsti CV

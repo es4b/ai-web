@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 
 const milestones = [
   {
-    year: "2018",
+    year: "2007",
     title: "Įkūrimas",
-    desc: 'UAB \u201EES4B\u201C įkurta Kaune su aiškiu tikslu — padėti B2B įmonėms išnaudoti automatizavimo galimybes. Pirmieji projektai — procesų konsultacijos ir RPA sprendimai.',
+    desc: 'UAB ES4B įkurta su tikslu — padėti B2B įmonėms išnaudoti technologijų ir interneto teikiamas galimybes.',
   },
   {
+    year: "2010",
+    title: "Verslo valdymo sistemos",
+    desc: "Pradėjome optimizuoti verslo valdymo procesus, CRM, ERP, e-verslo ir kitos sistemos.",
+  },
+    {
     year: "2020",
-    title: "AI integracija",
-    desc: "Su sparčiai besivystančiais didžiaisiais kalbos modeliais pradėjome integruoti AI į automizavimo sprendimus. Pirmieji chatbot'ai ir dokumentų apdorojimo projektai.",
-  },
-  {
-    year: "2022",
-    title: "Tarptautinė plėtra",
-    desc: "Pirmieji projektai Latvijoje, Estijoje ir Lenkijoje. Įmonė išaugo iki 20 specialistų komandos, apimančios AI inžinierius, verslo analitikus ir projekto vadovus.",
+    title: "Dirbtinio intelekto sprendimai",
+    desc: "Vieni pirmųjų Lietuvoje pradėjome dirbti su didžiaisiais kalbos modeliais (GPT-3), integruoti AI į automizavimo sprendimus.",
   },
   {
     year: "2024",
-    title: "Platforma MAXY.LT",
-    desc: "Sukūrėme MAXY.LT — visapusišką AI paslaugų platformą B2B klientams. Šiandien aptarnaujame 80+ aktyvių klientų ir vykdome 30+ aktyvių projektų vienu metu.",
+    title: "Modernūs ir galingi AI sprendimai",
+    desc: "Projektuojame, kuriame bei diegiame moderniausius ir efektyviausius AI sprendimus.",
   },
 ];
 
@@ -45,8 +45,7 @@ export default function StorySection() {
               Nuo procesų konsultacijų iki pilno AI ekosistemos diegimo
             </h2>
             <p className="text-[#6E6E73] leading-relaxed mb-5">
-              ES4B gimė iš paprastos pastebėjimo: Lietuvos B2B įmonės turi
-              didžiulį potencialą efektyvumui didinti, tačiau neturi vidinio
+              Lietuvos B2B įmonės turi didžiulį potencialą efektyvumui didinti, tačiau neturi vidinio
               AI kompetencijų centro, o brangūs konsultantai siūlo sprendimus
               be aiškios grąžos garantijos.
             </p>
@@ -56,7 +55,7 @@ export default function StorySection() {
               ir verslo logiką. Tai mūsų pagrindinis pranašumas.
             </p>
             <p className="text-[#6E6E73] leading-relaxed">
-              Per šešerius veiklos metus pristatėme daugiau nei 150 sėkmingų
+              Per 18 veiklos metų pristatėme daugiau nei 150 sėkmingų
               automatizavimo projektų įvairiose B2B sektoriuose: gamyboje,
               logistikoje, finansų paslaugose, e. komercijoje ir profesionaliose
               paslaugose.

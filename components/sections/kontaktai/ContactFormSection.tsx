@@ -39,7 +39,8 @@ const SERVICES = [
 ];
 
 const BUDGETS = [
-  "Iki €5 000",
+  "Iki €1 000",
+  "€1 000 – €5 000",
   "€5 000 – €15 000",
   "€15 000 – €50 000",
   "Daugiau nei €50 000",
@@ -197,7 +198,7 @@ export default function ContactFormSection() {
             <p className="text-sm font-semibold text-[#1D1D1F]">Nepavyko išsiųsti žinutės</p>
             <p className="text-xs text-[#6E6E73] mt-0.5">
               Bandykite dar kartą arba rašykite tiesiai:{" "}
-              <a href="mailto:info@es4b.co.uk" className="text-[#0071E3]">info@es4b.co.uk</a>
+              <a href="mailto:info@es4b.lt" className="text-[#0071E3]">info@es4b.lt</a>
             </p>
           </div>
         </motion.div>
@@ -349,7 +350,7 @@ export default function ContactFormSection() {
               Sutinku, kad UAB „ES4B" apdorotų mano pateiktus asmens duomenis
               kontaktui ir pasiūlymų teikimui. Savo sutikimą galiu atšaukti
               bet kuriuo metu rašydamas(-a) el. paštu{" "}
-              <a href="mailto:info@es4b.co.uk" className="text-[#0071E3]">info@es4b.co.uk</a>.
+              <a href="mailto:info@es4b.lt" className="text-[#0071E3]">info@es4b.lt</a>.
             </span>
           </label>
           <FieldError msg={touched.consent ? errors.consent : undefined} />

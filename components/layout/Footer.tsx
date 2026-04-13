@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const services = [
   { label: "Klientų aptarnavimo AI", href: "/paslaugos#klientu-aptarnavimas" },
@@ -42,11 +42,11 @@ export default function Footer() {
                 +370 655 00052
               </a>
               <a
-                href="mailto:info@es4b.co.uk"
+                href="mailto:info@es4b.lt"
                 className="flex items-center gap-2.5 text-sm text-[#6E6E73] hover:text-[#0071E3] transition-colors group"
               >
                 <Mail size={14} className="text-[#86868B] group-hover:text-[#0071E3] transition-colors flex-shrink-0" />
-                info@es4b.co.uk
+                info@es4b.lt
               </a>
               <div className="flex items-start gap-2.5 text-sm text-[#6E6E73]">
                 <MapPin size={14} className="text-[#86868B] flex-shrink-0 mt-0.5" />
@@ -111,10 +111,9 @@ export default function Footer() {
 
             <Link
               href="/kontaktai"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#0071E3] hover:bg-[#0077ED] text-white text-sm font-medium rounded-full transition-colors duration-200"
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#1D1D1F] hover:bg-[#0071E3] text-white text-sm font-medium rounded-full transition-colors duration-200"
             >
               Pradėti projektą
-              <ArrowUpRight size={14} />
             </Link>
           </div>
 

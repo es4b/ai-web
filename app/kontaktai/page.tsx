@@ -7,7 +7,7 @@ import ContactInfoSection from "@/components/sections/kontaktai/ContactInfoSecti
 export const metadata: Metadata = {
   title: "Kontaktai — Susisiekite su UAB ES4B",
   description:
-    "Susisiekite su UAB ES4B dėl AI automatizavimo sprendimų. K. Petrausko g. 26-221, Kaunas. Tel. +370 655 00052. El. paštas info@es4b.co.uk. Atsakome per 24 val.",
+    "Susisiekite su UAB ES4B dėl AI automatizavimo sprendimų. K. Petrausko g. 26-221, Kaunas. Tel. +370 655 00052. El. paštas info@es4b.lt. Atsakome per 24 val.",
   keywords: [
     "UAB ES4B kontaktai",
     "AI automatizavimas Kaunas",
